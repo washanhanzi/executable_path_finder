@@ -4,6 +4,8 @@ use std::{env, iter, path::PathBuf};
 
 use camino::Utf8PathBuf;
 
+pub mod home;
+
 /// find return a `PathBuf` for the given executable, it tries to find it in PATH and environment variables.
 ///
 /// The current implementation checks three places for an executable to use:
