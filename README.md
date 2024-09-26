@@ -1,9 +1,9 @@
-# path_finder
+# executable_path_finder
 
 find executable path
 
 ```rust
-use path_finder::find_in_env;
+use executable_path_finder::{find, find_with_cargo_home, find_in_env, find_in_path};
 
 fn main() {
     //find in PATH and env vars
