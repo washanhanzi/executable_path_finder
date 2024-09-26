@@ -2,6 +2,7 @@
 name = "path_finder"
 version = "0.0.1"
 edition = "2021"
+description = "A utility library for finding executable path"
 readme = "README.md"
 keywords = ["path", "finder", "filesystem", "directory", "utility"]
 license = "MIT"
