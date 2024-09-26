@@ -2,6 +2,11 @@
 name = "path_finder"
 version = "0.0.1"
 edition = "2021"
+readme = "README.md"
+keywords = ["path", "finder", "filesystem", "directory", "utility"]
+license = "MIT"
+homepage = "https://github.com/washanhanzi/path_finder"
+repository = "https://github.com/washanhanzi/path_finder"
 
 [dependencies]
 camino = "1.1.9"
