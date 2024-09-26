@@ -1,6 +1,11 @@
 [package]
 name = "path_finder"
-version = "0.1.0"
+version = "0.0.1"
 edition = "2021"
 
 [dependencies]
+camino = "1.1.9"
+home = "0.5.9"
+
+[dev-dependencies]
+tempfile = "3.12.0"
