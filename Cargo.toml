@@ -1,6 +1,6 @@
 [package]
 name = "executable_path_finder"
-version = "0.0.3"
+version = "0.0.5"
 edition = "2021"
 description = "A utility library for finding executable paths"
 readme = "README.md"
@@ -10,7 +10,14 @@ homepage = "https://github.com/washanhanzi/executable_path_finder"
 repository = "https://github.com/washanhanzi/executable_path_finder"
 
 [dependencies]
-camino = "1.1.9"
+camino = "1.1"
+
+[target.'cfg(windows)'.dependencies]
+windows-sys = { version = "0.59", features = [
+    "Win32_System_Com",
+    "Win32_Foundation",
+    "Win32_UI_Shell",
+] }
 
 [dev-dependencies]
-tempfile = "3.12.0"
+tempfile = "3.14"
